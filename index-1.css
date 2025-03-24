@@ -1,0 +1,125 @@
+:root {
+    --black: #171321;
+    --dkblue: #0d314b;
+    --plum: #4b0d49;
+    --hotmag: #ff17e4;
+    --magenta: #e310cb;
+    --aqua: #86fbfb;
+    --white: #f7f8fa;
+    --mono: "Oxygen mono", monospace;
+    --sans: Oxygen, sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 3rem 0;
+    
+}
+.jumps li {
+    list-style: none;
+}
+.jumps {
+    display: flex;
+}
+.jumps li a {
+    text-decoration: none;
+    margin-left: 10px;
+ }
+ .ruler {
+    height: 2px;
+    background-color: rgba(13, 0, 255, 0.772);
+ }
+ a {
+    color: white;
+ }
+ a:hover {
+    color: var(--magenta);
+    cursor: grab;
+ }
+ .section-blue {
+    background-color: var(--dkblue);
+
+ }
+ /* #projects{
+    width: 1200px;
+    margin: 0 auto;
+ }
+ article{
+display: flex;
+width: 1200px;
+justify-content: center;
+} */
+ .section-blue #projects {
+    width: 800px;
+    margin: 0 auto;
+
+ }
+ article{
+    display: flex;
+    /* margin-top: ; */
+    gap: 10px;
+ }
+ p {
+    background-color: var(--black);
+    padding: 2rem;
+    border-radius: 10px;
+font-family: var(--mono);
+ }
+ img {
+    border-top: 5px solid var(--magenta);
+    border-left: 5px solid var(--magenta);
+    border-radius: 2rem;
+    padding: 10px;
+ }
+ .skill {
+    /* display: flex; */
+    gap: 5px;
+    list-style: none;
+      text-align: right;
+    /* justify-content: flex-end; */
+    
+ }
+
+ li{
+    list-style: none;
+ }
+ .text h3{
+    text-align: right;
+    color: aqua;
+ }
+ footer{
+    /* border: 10px red solid; */
+    text-align: center;
+    margin-top: 20px;
+ }
+ .socials {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    }
+ .line {
+    background-color: blue;
+    height: 2px;
+    justify-content: center;
+    gap: 40px;
+    }
+    footer ul {
+   display: flex;
+      gap: 20px;
+      justify-content: center;
+   margin-top: 2rem;
+    }
+    h4 {
+      text-align: right;
+    }
